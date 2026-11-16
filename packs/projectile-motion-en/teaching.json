@@ -1,0 +1,71 @@
+{
+  "teachingSchemaVersion": 1,
+  "packId": "projectile-motion-en",
+  "publisherId": "ternion-official",
+  "title": {
+    "en": "Projectile motion"
+  },
+  "summary": {
+    "en": "Falling, launching and the pendulum in three lessons, each with a live simulation students can run and tune, and graded Python exercises. No equipment needed."
+  },
+  "subjects": [
+    "science",
+    "computing"
+  ],
+  "levels": [
+    "secondary"
+  ],
+  "languages": [
+    "en"
+  ],
+  "learningObjectives": [
+    "Describe free fall and compute a fall time from the height",
+    "Predict the range and the highest point of a launched ball",
+    "Explain what sets a pendulum's period and compute it"
+  ],
+  "lessons": [
+    {
+      "id": "falling",
+      "title": {
+        "en": "Falling"
+      },
+      "summary": {
+        "en": "Gravity, a dropped ball, a bouncing ball, and the fall time."
+      },
+      "file": "lessons/01-falling.json",
+      "minutes": 40
+    },
+    {
+      "id": "launching",
+      "title": {
+        "en": "Launching"
+      },
+      "summary": {
+        "en": "A ball launched at an angle: its path, range and highest point."
+      },
+      "file": "lessons/02-launching.json",
+      "minutes": 40
+    },
+    {
+      "id": "pendulum",
+      "title": {
+        "en": "The pendulum"
+      },
+      "summary": {
+        "en": "What sets the period, and how to compute it from the length."
+      },
+      "file": "lessons/03-the-pendulum.json",
+      "minutes": 40
+    }
+  ],
+  "teacherGuide": "guides/teacher-guide.md",
+  "studentGuide": "guides/student-guide.md",
+  "equipment": [],
+  "license": {
+    "spdx": "CC-BY-4.0",
+    "attribution": "TERNION"
+  },
+  "source": {
+    "repository": "https://github.com/drsanti/ternion-teaching-packs"
+  }
+}

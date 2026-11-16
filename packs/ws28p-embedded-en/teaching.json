@@ -1,0 +1,76 @@
+{
+  "teachingSchemaVersion": 1,
+  "packId": "ws28p-embedded-en",
+  "publisherId": "ternion-official",
+  "title": {
+    "en": "Embedded basics with the ws28p"
+  },
+  "summary": {
+    "en": "Sense, think, act: inputs, bouncing buttons, signals and sampling, with board checks on a real ws28p (or the simulated board) and graded Python exercises."
+  },
+  "subjects": [
+    "engineering",
+    "computing"
+  ],
+  "levels": [
+    "secondary"
+  ],
+  "languages": [
+    "en"
+  ],
+  "learningObjectives": [
+    "Describe an embedded system as sense → think → act",
+    "Read a button and explain why it bounces, and count presses correctly",
+    "Explain sampling rate and smooth a noisy signal"
+  ],
+  "lessons": [
+    {
+      "id": "sense",
+      "title": {
+        "en": "Sense, think, act"
+      },
+      "summary": {
+        "en": "What an embedded system is, the board's parts, and turning a raw reading into a number that means something."
+      },
+      "file": "lessons/01-sense-think-act.json",
+      "minutes": 40
+    },
+    {
+      "id": "buttons",
+      "title": {
+        "en": "Buttons and bouncing"
+      },
+      "summary": {
+        "en": "Digital inputs, contact bounce, and counting presses the right way."
+      },
+      "file": "lessons/02-buttons-and-bouncing.json",
+      "minutes": 40
+    },
+    {
+      "id": "signals",
+      "title": {
+        "en": "Signals and sampling"
+      },
+      "summary": {
+        "en": "The accelerometer as a signal, sampling rate, noise, and smoothing."
+      },
+      "file": "lessons/03-signals-and-sampling.json",
+      "minutes": 40
+    }
+  ],
+  "teacherGuide": "guides/teacher-guide.md",
+  "studentGuide": "guides/student-guide.md",
+  "equipment": [
+    {
+      "name": "robotos ws28p board and USB cable",
+      "required": false
+    }
+  ],
+  "license": {
+    "spdx": "CC-BY-4.0",
+    "attribution": "TERNION"
+  },
+  "source": {
+    "repository": "https://github.com/drsanti/ternion-teaching-packs"
+  }
+}

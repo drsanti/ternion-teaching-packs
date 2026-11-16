@@ -1,0 +1,71 @@
+{
+  "teachingSchemaVersion": 1,
+  "packId": "projectile-motion-th",
+  "publisherId": "ternion-official",
+  "title": {
+    "th": "การเคลื่อนที่แบบโพรเจกไทล์"
+  },
+  "summary": {
+    "th": "การตก การปล่อยวัตถุ และลูกตุ้ม ใน 3 บทเรียน แต่ละบทมีการจำลองสดที่ผู้เรียนรันและปรับค่าได้ พร้อมแบบฝึกหัด Python ที่ตรวจให้อัตโนมัติ ไม่ต้องใช้อุปกรณ์"
+  },
+  "subjects": [
+    "science",
+    "computing"
+  ],
+  "levels": [
+    "secondary"
+  ],
+  "languages": [
+    "th"
+  ],
+  "learningObjectives": [
+    "อธิบายการตกอย่างอิสระและคำนวณเวลาตกจากความสูง",
+    "ทำนายระยะและจุดสูงสุดของลูกบอลที่ถูกปล่อย",
+    "อธิบายว่าอะไรกำหนดคาบของลูกตุ้มและคำนวณคาบ"
+  ],
+  "lessons": [
+    {
+      "id": "falling",
+      "title": {
+        "th": "การตก"
+      },
+      "summary": {
+        "th": "แรงโน้มถ่วง ลูกบอลที่ปล่อยลง ลูกบอลที่กระดอน และเวลาตก"
+      },
+      "file": "lessons/01-falling.json",
+      "minutes": 40
+    },
+    {
+      "id": "launching",
+      "title": {
+        "th": "การปล่อยวัตถุ"
+      },
+      "summary": {
+        "th": "ลูกบอลที่ปล่อยเป็นมุม: เส้นทาง ระยะ และจุดสูงสุด"
+      },
+      "file": "lessons/02-launching.json",
+      "minutes": 40
+    },
+    {
+      "id": "pendulum",
+      "title": {
+        "th": "ลูกตุ้ม"
+      },
+      "summary": {
+        "th": "อะไรกำหนดคาบ และคำนวณจากความยาวได้อย่างไร"
+      },
+      "file": "lessons/03-the-pendulum.json",
+      "minutes": 40
+    }
+  ],
+  "teacherGuide": "guides/teacher-guide.md",
+  "studentGuide": "guides/student-guide.md",
+  "equipment": [],
+  "license": {
+    "spdx": "CC-BY-4.0",
+    "attribution": "TERNION"
+  },
+  "source": {
+    "repository": "https://github.com/drsanti/ternion-teaching-packs"
+  }
+}

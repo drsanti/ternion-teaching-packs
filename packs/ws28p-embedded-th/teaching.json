@@ -1,0 +1,76 @@
+{
+  "teachingSchemaVersion": 1,
+  "packId": "ws28p-embedded-th",
+  "publisherId": "ternion-official",
+  "title": {
+    "th": "พื้นฐานระบบสมองกลฝังตัวกับบอร์ด ws28p"
+  },
+  "summary": {
+    "th": "รับรู้ คิด ลงมือทำ: อินพุต ปุ่มที่เด้ง สัญญาณและการสุ่มตัวอย่าง พร้อมการตรวจบอร์ดบน ws28p จริง (หรือบอร์ดจำลอง) และแบบฝึกหัด Python ที่ตรวจให้อัตโนมัติ"
+  },
+  "subjects": [
+    "engineering",
+    "computing"
+  ],
+  "levels": [
+    "secondary"
+  ],
+  "languages": [
+    "th"
+  ],
+  "learningObjectives": [
+    "อธิบายระบบสมองกลฝังตัวในรูปแบบ รับรู้ → คิด → ลงมือทำ",
+    "อ่านปุ่ม อธิบายว่าทำไมมันเด้ง และนับการกดได้ถูกต้อง",
+    "อธิบายอัตราการสุ่มตัวอย่างและทำให้สัญญาณที่มีสัญญาณรบกวนเรียบขึ้น"
+  ],
+  "lessons": [
+    {
+      "id": "sense",
+      "title": {
+        "th": "รับรู้ คิด ลงมือทำ"
+      },
+      "summary": {
+        "th": "ระบบสมองกลฝังตัวคืออะไร ส่วนประกอบของบอร์ด และการแปลงค่าดิบเป็นตัวเลขที่มีความหมาย"
+      },
+      "file": "lessons/01-sense-think-act.json",
+      "minutes": 40
+    },
+    {
+      "id": "buttons",
+      "title": {
+        "th": "ปุ่มและการเด้ง"
+      },
+      "summary": {
+        "th": "อินพุตดิจิทัล การเด้งของหน้าสัมผัส และการนับการกดอย่างถูกวิธี"
+      },
+      "file": "lessons/02-buttons-and-bouncing.json",
+      "minutes": 40
+    },
+    {
+      "id": "signals",
+      "title": {
+        "th": "สัญญาณและการสุ่มตัวอย่าง"
+      },
+      "summary": {
+        "th": "เซนเซอร์วัดความเร่งในฐานะสัญญาณ อัตราการสุ่มตัวอย่าง สัญญาณรบกวน และการทำให้เรียบ"
+      },
+      "file": "lessons/03-signals-and-sampling.json",
+      "minutes": 40
+    }
+  ],
+  "teacherGuide": "guides/teacher-guide.md",
+  "studentGuide": "guides/student-guide.md",
+  "equipment": [
+    {
+      "name": "บอร์ด robotos ws28p และสาย USB",
+      "required": false
+    }
+  ],
+  "license": {
+    "spdx": "CC-BY-4.0",
+    "attribution": "TERNION"
+  },
+  "source": {
+    "repository": "https://github.com/drsanti/ternion-teaching-packs"
+  }
+}

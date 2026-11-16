@@ -1,0 +1,41 @@
+{
+  "id": "projectile-motion-en",
+  "name": "Projectile motion",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "kind": "pack",
+  "description": "Falling, launching and the pendulum in three lessons, each with a live simulation students can run and tune, and graded Python exercises. No equipment needed.",
+  "permissions": [],
+  "requires": {
+    "capabilities": [
+      "class",
+      "python"
+    ]
+  },
+  "contents": [
+    {
+      "type": "asset",
+      "path": "teaching.json"
+    },
+    {
+      "type": "lesson",
+      "path": "lessons/01-falling.json"
+    },
+    {
+      "type": "lesson",
+      "path": "lessons/02-launching.json"
+    },
+    {
+      "type": "lesson",
+      "path": "lessons/03-the-pendulum.json"
+    },
+    {
+      "type": "asset",
+      "path": "guides/teacher-guide.md"
+    },
+    {
+      "type": "asset",
+      "path": "guides/student-guide.md"
+    }
+  ]
+}

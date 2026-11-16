@@ -1,0 +1,41 @@
+{
+  "id": "projectile-motion-th",
+  "name": "การเคลื่อนที่แบบโพรเจกไทล์",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "kind": "pack",
+  "description": "การตก การปล่อยวัตถุ และลูกตุ้ม ใน 3 บทเรียน แต่ละบทมีการจำลองสดที่ผู้เรียนรันและปรับค่าได้ พร้อมแบบฝึกหัด Python ที่ตรวจให้อัตโนมัติ ไม่ต้องใช้อุปกรณ์",
+  "permissions": [],
+  "requires": {
+    "capabilities": [
+      "class",
+      "python"
+    ]
+  },
+  "contents": [
+    {
+      "type": "asset",
+      "path": "teaching.json"
+    },
+    {
+      "type": "lesson",
+      "path": "lessons/01-falling.json"
+    },
+    {
+      "type": "lesson",
+      "path": "lessons/02-launching.json"
+    },
+    {
+      "type": "lesson",
+      "path": "lessons/03-the-pendulum.json"
+    },
+    {
+      "type": "asset",
+      "path": "guides/teacher-guide.md"
+    },
+    {
+      "type": "asset",
+      "path": "guides/student-guide.md"
+    }
+  ]
+}

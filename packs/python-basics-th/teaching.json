@@ -1,0 +1,70 @@
+{
+  "teachingSchemaVersion": 1,
+  "packId": "python-basics-th",
+  "publisherId": "ternion-official",
+  "title": {
+    "th": "พื้นฐาน Python"
+  },
+  "summary": {
+    "th": "ค่า การตัดสินใจ ลูป และฟังก์ชันใน 3 บทเรียน พร้อมแบบฝึกหัดที่ตรวจให้อัตโนมัติและรันบนสไลด์ ไม่ต้องใช้อุปกรณ์"
+  },
+  "subjects": [
+    "computing"
+  ],
+  "levels": [
+    "secondary"
+  ],
+  "languages": [
+    "th"
+  ],
+  "learningObjectives": [
+    "เก็บค่าในตัวแปรและพิมพ์ออกมา",
+    "ตัดสินใจด้วย if และทำซ้ำด้วยลูป",
+    "เขียนและเรียกใช้ฟังก์ชันที่คืนค่าผลลัพธ์"
+  ],
+  "lessons": [
+    {
+      "id": "values",
+      "title": {
+        "th": "ค่าและการพิมพ์"
+      },
+      "summary": {
+        "th": "print ตัวแปร ตัวเลขและข้อความ และการคำนวณ"
+      },
+      "file": "lessons/01-values-and-printing.json",
+      "minutes": 40
+    },
+    {
+      "id": "loops",
+      "title": {
+        "th": "การตัดสินใจและลูป"
+      },
+      "summary": {
+        "th": "if / else, for และ while และการนับรวม"
+      },
+      "file": "lessons/02-decisions-and-loops.json",
+      "minutes": 40
+    },
+    {
+      "id": "functions",
+      "title": {
+        "th": "ฟังก์ชัน"
+      },
+      "summary": {
+        "th": "def พารามิเตอร์ return และการทดสอบฟังก์ชันด้วยการเรียกใช้"
+      },
+      "file": "lessons/03-functions.json",
+      "minutes": 40
+    }
+  ],
+  "teacherGuide": "guides/teacher-guide.md",
+  "studentGuide": "guides/student-guide.md",
+  "equipment": [],
+  "license": {
+    "spdx": "CC-BY-4.0",
+    "attribution": "TERNION"
+  },
+  "source": {
+    "repository": "https://github.com/drsanti/ternion-teaching-packs"
+  }
+}

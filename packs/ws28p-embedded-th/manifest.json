@@ -1,0 +1,42 @@
+{
+  "id": "ws28p-embedded-th",
+  "name": "พื้นฐานระบบสมองกลฝังตัวกับบอร์ด ws28p",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "kind": "pack",
+  "description": "รับรู้ คิด ลงมือทำ: อินพุต ปุ่มที่เด้ง สัญญาณและการสุ่มตัวอย่าง พร้อมการตรวจบอร์ดบน ws28p จริง (หรือบอร์ดจำลอง) และแบบฝึกหัด Python ที่ตรวจให้อัตโนมัติ",
+  "permissions": [],
+  "requires": {
+    "capabilities": [
+      "serial",
+      "class",
+      "python"
+    ]
+  },
+  "contents": [
+    {
+      "type": "asset",
+      "path": "teaching.json"
+    },
+    {
+      "type": "lesson",
+      "path": "lessons/01-sense-think-act.json"
+    },
+    {
+      "type": "lesson",
+      "path": "lessons/02-buttons-and-bouncing.json"
+    },
+    {
+      "type": "lesson",
+      "path": "lessons/03-signals-and-sampling.json"
+    },
+    {
+      "type": "asset",
+      "path": "guides/teacher-guide.md"
+    },
+    {
+      "type": "asset",
+      "path": "guides/student-guide.md"
+    }
+  ]
+}

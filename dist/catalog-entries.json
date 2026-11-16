@@ -33,6 +33,54 @@
   },
   {
     "publisherId": "ternion-official",
+    "packId": "python-basics-en",
+    "version": "1.0.0",
+    "file": "python-basics-en-1.0.0.ternion-plugin",
+    "sha256": "bbcff43b93f3bf08a564fc5c43e6fbb4b01fc8fef0056ff9ff46fc8654112a06",
+    "bytes": 10239
+  },
+  {
+    "publisherId": "ternion-official",
+    "packId": "python-basics-th",
+    "version": "1.0.0",
+    "file": "python-basics-th-1.0.0.ternion-plugin",
+    "sha256": "29093f0192fdd35f5d83db97bf05379b0500f126cefed49939ac9ac2e978f0e0",
+    "bytes": 11855
+  },
+  {
+    "publisherId": "ternion-official",
+    "packId": "projectile-motion-en",
+    "version": "1.0.0",
+    "file": "projectile-motion-en-1.0.0.ternion-plugin",
+    "sha256": "1229ef4b8b12bd7efd99d138eabde83918da9446b7bbb3d93856150f7967477e",
+    "bytes": 11840
+  },
+  {
+    "publisherId": "ternion-official",
+    "packId": "projectile-motion-th",
+    "version": "1.0.0",
+    "file": "projectile-motion-th-1.0.0.ternion-plugin",
+    "sha256": "56d275eceb3c92435f2b9134db09d767fb1b3bac44934aa2c600532a8a01eb85",
+    "bytes": 13647
+  },
+  {
+    "publisherId": "ternion-official",
+    "packId": "ws28p-embedded-en",
+    "version": "1.0.0",
+    "file": "ws28p-embedded-en-1.0.0.ternion-plugin",
+    "sha256": "0bcde0fea8c58bd690c9018f482b0531bdcc7c7712628f92d2482b097eaa2d5f",
+    "bytes": 14104
+  },
+  {
+    "publisherId": "ternion-official",
+    "packId": "ws28p-embedded-th",
+    "version": "1.0.0",
+    "file": "ws28p-embedded-th-1.0.0.ternion-plugin",
+    "sha256": "c418b8d93698cadf6333146c791b533330459f0d7b439cdd5f62f5c6772e2d92",
+    "bytes": 16409
+  },
+  {
+    "publisherId": "ternion-official",
     "packId": "live-sensors-en",
     "version": "1.0.0",
     "file": "live-sensors-en-1.0.0.ternion-protected",

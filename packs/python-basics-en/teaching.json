@@ -1,0 +1,70 @@
+{
+  "teachingSchemaVersion": 1,
+  "packId": "python-basics-en",
+  "publisherId": "ternion-official",
+  "title": {
+    "en": "Python basics"
+  },
+  "summary": {
+    "en": "Values, decisions, loops and functions in three lessons, with graded exercises that run on the slide. No equipment needed."
+  },
+  "subjects": [
+    "computing"
+  ],
+  "levels": [
+    "secondary"
+  ],
+  "languages": [
+    "en"
+  ],
+  "learningObjectives": [
+    "Store values in variables and print them",
+    "Make decisions with if and repeat with loops",
+    "Write and call functions that return a result"
+  ],
+  "lessons": [
+    {
+      "id": "values",
+      "title": {
+        "en": "Values and printing"
+      },
+      "summary": {
+        "en": "print, variables, numbers and text, and arithmetic."
+      },
+      "file": "lessons/01-values-and-printing.json",
+      "minutes": 40
+    },
+    {
+      "id": "loops",
+      "title": {
+        "en": "Decisions and loops"
+      },
+      "summary": {
+        "en": "if / else, for and while, and counting things up."
+      },
+      "file": "lessons/02-decisions-and-loops.json",
+      "minutes": 40
+    },
+    {
+      "id": "functions",
+      "title": {
+        "en": "Functions"
+      },
+      "summary": {
+        "en": "def, parameters, return, and testing a function by calling it."
+      },
+      "file": "lessons/03-functions.json",
+      "minutes": 40
+    }
+  ],
+  "teacherGuide": "guides/teacher-guide.md",
+  "studentGuide": "guides/student-guide.md",
+  "equipment": [],
+  "license": {
+    "spdx": "CC-BY-4.0",
+    "attribution": "TERNION"
+  },
+  "source": {
+    "repository": "https://github.com/drsanti/ternion-teaching-packs"
+  }
+}
