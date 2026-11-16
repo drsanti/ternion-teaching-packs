@@ -105,5 +105,16 @@
     "protected": {
       "innerSha256": "ba34f81b06e44ae47c24207d203505dea13074d1c36b24d307b45579568464ca"
     }
+  },
+  {
+    "publisherId": "tesa",
+    "packId": "tesa-devkit-talk-en",
+    "version": "1.0.0",
+    "file": "tesa-devkit-talk-en-1.0.0.ternion-protected",
+    "sha256": "55a2809422883b0a7c7c8a42a15a50c73ebf5861b8d611a7e0fc2a35fb64d004",
+    "bytes": 19737,
+    "protected": {
+      "innerSha256": "111742fcd78e58dc55e0898bb04f22450f69d257c1f1036091e6a60255a4d6fe"
+    }
   }
 ]
