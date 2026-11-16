@@ -17,6 +17,22 @@
   },
   {
     "publisherId": "ternion-official",
+    "packId": "ws28p-sensors-en",
+    "version": "1.0.0",
+    "file": "ws28p-sensors-en-1.0.0.ternion-plugin",
+    "sha256": "9320e8d4a748f7bed734ed8ccf0ebee4cc7ad10ad7dc8f936486563d12f46e22",
+    "bytes": 10117
+  },
+  {
+    "publisherId": "ternion-official",
+    "packId": "ws28p-sensors-th",
+    "version": "1.0.0",
+    "file": "ws28p-sensors-th-1.0.0.ternion-plugin",
+    "sha256": "5b255ab92a8af498075394ae478ca940194d7533a9ef230918226c8c27f897f6",
+    "bytes": 11647
+  },
+  {
+    "publisherId": "ternion-official",
     "packId": "live-sensors-en",
     "version": "1.0.0",
     "file": "live-sensors-en-1.0.0.ternion-protected",

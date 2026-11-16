@@ -1,0 +1,41 @@
+{
+  "id": "ws28p-sensors-en",
+  "name": "Sensors with the ws28p board",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "kind": "pack",
+  "description": "Buttons, tilt and reaction time with a real ESP32-S3 board, in three lessons; a simulated board stands in when there is none.",
+  "permissions": [],
+  "requires": {
+    "capabilities": [
+      "serial",
+      "class"
+    ]
+  },
+  "contents": [
+    {
+      "type": "asset",
+      "path": "teaching.json"
+    },
+    {
+      "type": "lesson",
+      "path": "lessons/01-meet-the-board.json"
+    },
+    {
+      "type": "lesson",
+      "path": "lessons/02-tilt-and-gravity.json"
+    },
+    {
+      "type": "lesson",
+      "path": "lessons/03-reaction-time.json"
+    },
+    {
+      "type": "asset",
+      "path": "guides/teacher-guide.md"
+    },
+    {
+      "type": "asset",
+      "path": "guides/student-guide.md"
+    }
+  ]
+}

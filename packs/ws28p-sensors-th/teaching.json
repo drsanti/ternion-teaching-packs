@@ -1,0 +1,76 @@
+{
+  "teachingSchemaVersion": 1,
+  "packId": "ws28p-sensors-th",
+  "publisherId": "ternion-official",
+  "title": {
+    "th": "เซนเซอร์กับบอร์ด ws28p"
+  },
+  "summary": {
+    "th": "ปุ่ม การเอียง และเวลาตอบสนองด้วยบอร์ด ESP32-S3 จริง ใน 3 บทเรียน ถ้าไม่มีบอร์ดก็ใช้บอร์ดจำลองแทนได้"
+  },
+  "subjects": [
+    "science",
+    "engineering"
+  ],
+  "levels": [
+    "secondary"
+  ],
+  "languages": [
+    "th"
+  ],
+  "learningObjectives": [
+    "เชื่อมต่อบอร์ดและอ่านข้อมูลสด",
+    "อธิบายว่าเซนเซอร์วัดความเร่งรับรู้การเอียงผ่านแรงโน้มถ่วงได้อย่างไร",
+    "วัดและเปรียบเทียบเวลาตอบสนองด้วยปุ่ม"
+  ],
+  "lessons": [
+    {
+      "id": "meet",
+      "title": {
+        "th": "รู้จักบอร์ด"
+      },
+      "summary": {
+        "th": "บนบอร์ด ws28p มีอะไรบ้าง การเชื่อมต่อ และปุ่มทั้งสอง"
+      },
+      "file": "lessons/01-meet-the-board.json",
+      "minutes": 30
+    },
+    {
+      "id": "tilt",
+      "title": {
+        "th": "การเอียงและแรงโน้มถ่วง"
+      },
+      "summary": {
+        "th": "เซนเซอร์วัดความเร่ง สามแกน และการอ่านการเอียงจากแรงโน้มถ่วง"
+      },
+      "file": "lessons/02-tilt-and-gravity.json",
+      "minutes": 40
+    },
+    {
+      "id": "reaction",
+      "title": {
+        "th": "เวลาตอบสนอง"
+      },
+      "summary": {
+        "th": "วัดว่ากดปุ่มได้เร็วแค่ไหน แล้วเปรียบเทียบและพัฒนา"
+      },
+      "file": "lessons/03-reaction-time.json",
+      "minutes": 35
+    }
+  ],
+  "teacherGuide": "guides/teacher-guide.md",
+  "studentGuide": "guides/student-guide.md",
+  "equipment": [
+    {
+      "name": "บอร์ด robotos ws28p และสาย USB",
+      "required": false
+    }
+  ],
+  "license": {
+    "spdx": "CC-BY-4.0",
+    "attribution": "TERNION"
+  },
+  "source": {
+    "repository": "https://github.com/drsanti/ternion-teaching-packs"
+  }
+}

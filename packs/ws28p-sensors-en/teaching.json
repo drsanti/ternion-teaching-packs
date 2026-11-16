@@ -1,0 +1,76 @@
+{
+  "teachingSchemaVersion": 1,
+  "packId": "ws28p-sensors-en",
+  "publisherId": "ternion-official",
+  "title": {
+    "en": "Sensors with the ws28p board"
+  },
+  "summary": {
+    "en": "Buttons, tilt and reaction time with a real ESP32-S3 board, in three lessons; a simulated board stands in when there is none."
+  },
+  "subjects": [
+    "science",
+    "engineering"
+  ],
+  "levels": [
+    "secondary"
+  ],
+  "languages": [
+    "en"
+  ],
+  "learningObjectives": [
+    "Connect a board and read its live data",
+    "Explain how an accelerometer senses tilt through gravity",
+    "Measure and compare reaction times with a button"
+  ],
+  "lessons": [
+    {
+      "id": "meet",
+      "title": {
+        "en": "Meet the board"
+      },
+      "summary": {
+        "en": "What is on a ws28p, connecting it, and its two buttons."
+      },
+      "file": "lessons/01-meet-the-board.json",
+      "minutes": 30
+    },
+    {
+      "id": "tilt",
+      "title": {
+        "en": "Tilt and gravity"
+      },
+      "summary": {
+        "en": "The accelerometer, three axes, and reading tilt from gravity."
+      },
+      "file": "lessons/02-tilt-and-gravity.json",
+      "minutes": 40
+    },
+    {
+      "id": "reaction",
+      "title": {
+        "en": "Reaction time"
+      },
+      "summary": {
+        "en": "Measure how fast you press a button, then compare and improve."
+      },
+      "file": "lessons/03-reaction-time.json",
+      "minutes": 35
+    }
+  ],
+  "teacherGuide": "guides/teacher-guide.md",
+  "studentGuide": "guides/student-guide.md",
+  "equipment": [
+    {
+      "name": "robotos ws28p board and USB cable",
+      "required": false
+    }
+  ],
+  "license": {
+    "spdx": "CC-BY-4.0",
+    "attribution": "TERNION"
+  },
+  "source": {
+    "repository": "https://github.com/drsanti/ternion-teaching-packs"
+  }
+}

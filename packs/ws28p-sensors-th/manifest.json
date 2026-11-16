@@ -1,0 +1,41 @@
+{
+  "id": "ws28p-sensors-th",
+  "name": "เซนเซอร์กับบอร์ด ws28p",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "kind": "pack",
+  "description": "ปุ่ม การเอียง และเวลาตอบสนองด้วยบอร์ด ESP32-S3 จริง ใน 3 บทเรียน ถ้าไม่มีบอร์ดก็ใช้บอร์ดจำลองแทนได้",
+  "permissions": [],
+  "requires": {
+    "capabilities": [
+      "serial",
+      "class"
+    ]
+  },
+  "contents": [
+    {
+      "type": "asset",
+      "path": "teaching.json"
+    },
+    {
+      "type": "lesson",
+      "path": "lessons/01-meet-the-board.json"
+    },
+    {
+      "type": "lesson",
+      "path": "lessons/02-tilt-and-gravity.json"
+    },
+    {
+      "type": "lesson",
+      "path": "lessons/03-reaction-time.json"
+    },
+    {
+      "type": "asset",
+      "path": "guides/teacher-guide.md"
+    },
+    {
+      "type": "asset",
+      "path": "guides/student-guide.md"
+    }
+  ]
+}
