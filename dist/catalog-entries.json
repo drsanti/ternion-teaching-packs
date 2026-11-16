@@ -2,17 +2,17 @@
   {
     "publisherId": "ternion-official",
     "packId": "intro-to-ternion-en",
-    "version": "1.0.1",
-    "file": "intro-to-ternion-en-1.0.1.ternion-plugin",
-    "sha256": "55ef26d263f7d0c916efed4fe5dd2bc29440cf404a181663cf8dd6edf715a3c3",
-    "bytes": 8642
+    "version": "1.0.2",
+    "file": "intro-to-ternion-en-1.0.2.ternion-plugin",
+    "sha256": "5152e0aa519b5ccba6b48a217f6c703214e232336d6937c534ef764b842f7031",
+    "bytes": 8922
   },
   {
     "publisherId": "ternion-official",
     "packId": "intro-to-ternion-th",
-    "version": "1.0.1",
-    "file": "intro-to-ternion-th-1.0.1.ternion-plugin",
-    "sha256": "ad63aeae12e8a2cd3beeb620a80d5682eb1991746c70b51d84515708fd939c04",
-    "bytes": 10262
+    "version": "1.0.2",
+    "file": "intro-to-ternion-th-1.0.2.ternion-plugin",
+    "sha256": "a6936e6313eeca261e6e22eb6dbd4ebd6735524af9dfd0c80d09be606b0a7741",
+    "bytes": 10543
   }
 ]
