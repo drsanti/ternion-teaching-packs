@@ -1,0 +1,71 @@
+{
+  "teachingSchemaVersion": 1,
+  "packId": "sound-mic-th",
+  "publisherId": "ternion-official",
+  "title": {
+    "th": "เสียงและไมโครโฟน"
+  },
+  "summary": {
+    "th": "ความดัง ระดับเสียง และจังหวะ วัดสด ๆ ด้วยไมโครโฟนของแล็ปท็อป ใน 3 บทเรียน พร้อมแบบฝึกหัด Python ที่ตรวจให้อัตโนมัติ"
+  },
+  "subjects": [
+    "science",
+    "computing"
+  ],
+  "levels": [
+    "secondary"
+  ],
+  "languages": [
+    "th"
+  ],
+  "learningObjectives": [
+    "อธิบายเสียงว่าเป็นการสั่นที่เดินทางได้",
+    "เชื่อมโยงระดับเสียงกับความถี่และความยาวคลื่น",
+    "นับจังหวะจากข้อมูลและคำนวณความเร็วจังหวะ"
+  ],
+  "lessons": [
+    {
+      "id": "loudness",
+      "title": {
+        "th": "ความดัง"
+      },
+      "summary": {
+        "th": "เสียงคือการสั่น ความดังของเสียง และความเร็วที่เสียงเดินทาง"
+      },
+      "file": "lessons/01-loudness.json",
+      "minutes": 35
+    },
+    {
+      "id": "pitch",
+      "title": {
+        "th": "ระดับเสียงและความถี่"
+      },
+      "summary": {
+        "th": "เสียงสูงและต่ำ เฮิรตซ์ ความยาวคลื่น และอ็อกเทฟ"
+      },
+      "file": "lessons/02-pitch.json",
+      "minutes": 40
+    },
+    {
+      "id": "beats",
+      "title": {
+        "th": "จังหวะและตัวนับเสียงปรบมือ"
+      },
+      "summary": {
+        "th": "การตรวจจับจังหวะ การนับเสียงปรบมือจากข้อมูล และความเร็วจังหวะเป็นครั้งต่อนาที"
+      },
+      "file": "lessons/03-beats.json",
+      "minutes": 35
+    }
+  ],
+  "teacherGuide": "guides/teacher-guide.md",
+  "studentGuide": "guides/student-guide.md",
+  "equipment": [],
+  "license": {
+    "spdx": "CC-BY-4.0",
+    "attribution": "TERNION"
+  },
+  "source": {
+    "repository": "https://github.com/drsanti/ternion-teaching-packs"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "sound-mic-th",
+  "name": "เสียงและไมโครโฟน",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "kind": "pack",
+  "description": "ความดัง ระดับเสียง และจังหวะ วัดสด ๆ ด้วยไมโครโฟนของแล็ปท็อป ใน 3 บทเรียน พร้อมแบบฝึกหัด Python ที่ตรวจให้อัตโนมัติ",
+  "permissions": [],
+  "requires": {
+    "capabilities": [
+      "microphone",
+      "python",
+      "class"
+    ]
+  },
+  "contents": [
+    {
+      "type": "asset",
+      "path": "teaching.json"
+    },
+    {
+      "type": "lesson",
+      "path": "lessons/01-loudness.json"
+    },
+    {
+      "type": "lesson",
+      "path": "lessons/02-pitch.json"
+    },
+    {
+      "type": "lesson",
+      "path": "lessons/03-beats.json"
+    },
+    {
+      "type": "asset",
+      "path": "guides/teacher-guide.md"
+    },
+    {
+      "type": "asset",
+      "path": "guides/student-guide.md"
+    }
+  ]
+}

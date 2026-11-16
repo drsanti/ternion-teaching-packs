@@ -1,0 +1,71 @@
+{
+  "teachingSchemaVersion": 1,
+  "packId": "sound-mic-en",
+  "publisherId": "ternion-official",
+  "title": {
+    "en": "Sound and the microphone"
+  },
+  "summary": {
+    "en": "Loudness, pitch and beats, measured live with the laptop's microphone, in three lessons with graded Python exercises."
+  },
+  "subjects": [
+    "science",
+    "computing"
+  ],
+  "levels": [
+    "secondary"
+  ],
+  "languages": [
+    "en"
+  ],
+  "learningObjectives": [
+    "Explain sound as a vibration that travels",
+    "Relate pitch to frequency and wavelength",
+    "Count beats from data and work out a tempo"
+  ],
+  "lessons": [
+    {
+      "id": "loudness",
+      "title": {
+        "en": "Loudness"
+      },
+      "summary": {
+        "en": "Sound as a vibration, how loud it is, and how fast it travels."
+      },
+      "file": "lessons/01-loudness.json",
+      "minutes": 35
+    },
+    {
+      "id": "pitch",
+      "title": {
+        "en": "Pitch and frequency"
+      },
+      "summary": {
+        "en": "High and low notes, hertz, wavelength and octaves."
+      },
+      "file": "lessons/02-pitch.json",
+      "minutes": 40
+    },
+    {
+      "id": "beats",
+      "title": {
+        "en": "Beats and a clap counter"
+      },
+      "summary": {
+        "en": "Detecting beats, counting claps from data, and tempo in beats per minute."
+      },
+      "file": "lessons/03-beats.json",
+      "minutes": 35
+    }
+  ],
+  "teacherGuide": "guides/teacher-guide.md",
+  "studentGuide": "guides/student-guide.md",
+  "equipment": [],
+  "license": {
+    "spdx": "CC-BY-4.0",
+    "attribution": "TERNION"
+  },
+  "source": {
+    "repository": "https://github.com/drsanti/ternion-teaching-packs"
+  }
+}

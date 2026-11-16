@@ -81,6 +81,22 @@
   },
   {
     "publisherId": "ternion-official",
+    "packId": "sound-mic-en",
+    "version": "1.0.0",
+    "file": "sound-mic-en-1.0.0.ternion-plugin",
+    "sha256": "f7f423eb1f0678c6b2406dd247b3fcdfa36d59b56ee93437a72ec901a4a7bd9a",
+    "bytes": 11462
+  },
+  {
+    "publisherId": "ternion-official",
+    "packId": "sound-mic-th",
+    "version": "1.0.0",
+    "file": "sound-mic-th-1.0.0.ternion-plugin",
+    "sha256": "725b6448aa11a90bea60449b37efdc0bff949d8597c5bbdfc03c8c6dc9531f46",
+    "bytes": 13323
+  },
+  {
+    "publisherId": "ternion-official",
     "packId": "live-sensors-en",
     "version": "1.0.0",
     "file": "live-sensors-en-1.0.0.ternion-protected",
