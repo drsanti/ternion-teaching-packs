@@ -1,0 +1,70 @@
+{
+  "teachingSchemaVersion": 1,
+  "packId": "intro-to-ternion-th",
+  "publisherId": "ternion-official",
+  "title": {
+    "th": "แนะนำ TERNION"
+  },
+  "summary": {
+    "th": "สร้าง นำเสนอ และสอนด้วยสไลด์แบบโต้ตอบและข้อมูลสด ใน 3 บทเรียนสั้น ๆ"
+  },
+  "subjects": [
+    "teaching-with-technology"
+  ],
+  "levels": [
+    "teacher-training"
+  ],
+  "languages": [
+    "th"
+  ],
+  "learningObjectives": [
+    "สร้างสไลด์และเลือกธีม",
+    "แสดงข้อมูลสดบนสไลด์ด้วยวิดเจ็ต",
+    "ใช้โพล แบบทดสอบ การตรวจบอร์ด และโค้ดกับผู้เรียน"
+  ],
+  "lessons": [
+    {
+      "id": "first-deck",
+      "title": {
+        "th": "สไลด์ชุดแรกของคุณ"
+      },
+      "summary": {
+        "th": "หน้าจอแก้ไข การเพิ่มเนื้อหา ธีม และการนำเสนอ"
+      },
+      "file": "lessons/01-first-deck.json",
+      "minutes": 30
+    },
+    {
+      "id": "live-data",
+      "title": {
+        "th": "ข้อมูลสดและวิดเจ็ต"
+      },
+      "summary": {
+        "th": "แหล่งข้อมูล ช่องข้อมูล เกจ และกราฟที่เปลี่ยนตามข้อมูลจริง"
+      },
+      "file": "lessons/02-live-data.json",
+      "minutes": 40
+    },
+    {
+      "id": "classroom",
+      "title": {
+        "th": "ห้องเรียนแบบโต้ตอบ"
+      },
+      "summary": {
+        "th": "โพล แบบทดสอบ การตรวจบอร์ด และโค้ดที่รันได้กับผู้เรียน"
+      },
+      "file": "lessons/03-classroom.json",
+      "minutes": 40
+    }
+  ],
+  "teacherGuide": "guides/teacher-guide.md",
+  "studentGuide": "guides/student-guide.md",
+  "equipment": [],
+  "license": {
+    "spdx": "CC-BY-4.0",
+    "attribution": "TERNION"
+  },
+  "source": {
+    "repository": "https://github.com/drsanti/ternion-teaching-packs"
+  }
+}

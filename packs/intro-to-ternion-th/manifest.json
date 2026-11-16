@@ -1,0 +1,41 @@
+{
+  "id": "intro-to-ternion-th",
+  "name": "แนะนำ TERNION",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "kind": "pack",
+  "description": "สร้าง นำเสนอ และสอนด้วยสไลด์แบบโต้ตอบและข้อมูลสด ใน 3 บทเรียนสั้น ๆ",
+  "permissions": [],
+  "requires": {
+    "capabilities": [
+      "class",
+      "python"
+    ]
+  },
+  "contents": [
+    {
+      "type": "asset",
+      "path": "teaching.json"
+    },
+    {
+      "type": "lesson",
+      "path": "lessons/01-first-deck.json"
+    },
+    {
+      "type": "lesson",
+      "path": "lessons/02-live-data.json"
+    },
+    {
+      "type": "lesson",
+      "path": "lessons/03-classroom.json"
+    },
+    {
+      "type": "asset",
+      "path": "guides/teacher-guide.md"
+    },
+    {
+      "type": "asset",
+      "path": "guides/student-guide.md"
+    }
+  ]
+}

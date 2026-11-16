@@ -1,0 +1,70 @@
+{
+  "teachingSchemaVersion": 1,
+  "packId": "intro-to-ternion-en",
+  "publisherId": "ternion-official",
+  "title": {
+    "en": "Introduction to TERNION"
+  },
+  "summary": {
+    "en": "Make, present and teach with live, interactive slides in three short lessons."
+  },
+  "subjects": [
+    "teaching-with-technology"
+  ],
+  "levels": [
+    "teacher-training"
+  ],
+  "languages": [
+    "en"
+  ],
+  "learningObjectives": [
+    "Make a deck and choose its look",
+    "Show live data on a slide with widgets",
+    "Run polls, quizzes, board checks and code with a class"
+  ],
+  "lessons": [
+    {
+      "id": "first-deck",
+      "title": {
+        "en": "Your first deck"
+      },
+      "summary": {
+        "en": "The editor, adding content, themes and presenting."
+      },
+      "file": "lessons/01-first-deck.json",
+      "minutes": 30
+    },
+    {
+      "id": "live-data",
+      "title": {
+        "en": "Live data and widgets"
+      },
+      "summary": {
+        "en": "Sources, channels, gauges and charts that move with real data."
+      },
+      "file": "lessons/02-live-data.json",
+      "minutes": 40
+    },
+    {
+      "id": "classroom",
+      "title": {
+        "en": "The interactive classroom"
+      },
+      "summary": {
+        "en": "Polls, quizzes, board checks and runnable code with a class."
+      },
+      "file": "lessons/03-classroom.json",
+      "minutes": 40
+    }
+  ],
+  "teacherGuide": "guides/teacher-guide.md",
+  "studentGuide": "guides/student-guide.md",
+  "equipment": [],
+  "license": {
+    "spdx": "CC-BY-4.0",
+    "attribution": "TERNION"
+  },
+  "source": {
+    "repository": "https://github.com/drsanti/ternion-teaching-packs"
+  }
+}
