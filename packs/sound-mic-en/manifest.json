@@ -1,7 +1,7 @@
 {
   "id": "sound-mic-en",
   "name": "Sound and the microphone",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "apiVersion": 1,
   "kind": "pack",
   "description": "Loudness, pitch and beats, measured live with the laptop's microphone, in three lessons with graded Python exercises.",

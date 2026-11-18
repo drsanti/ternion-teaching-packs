@@ -1,0 +1,99 @@
+{
+  "format": "ternion-code-lab",
+  "lab": {
+    "id": "loops-and-lists",
+    "title": "ลูปและลิสต์",
+    "language": "python",
+    "entry": "main.py",
+    "files": {
+      "main.py": "from scores import SCORES\n\ndef count_passing(scores, mark):\n    # มีกี่คะแนนที่ได้ตั้งแต่ mark ขึ้นไป\n    return 0\n\ndef average(scores):\n    # บวกทั้งหมด แล้วหารด้วยจำนวนคะแนน\n    return 0\n\ndef highest(scores):\n    # ห้ามใช้ max(): เก็บคะแนนที่สูงที่สุดที่เจอมาจนถึงตอนนี้\n    return 0\n\nprint(\"passed:\", count_passing(SCORES, 50))\nprint(\"average:\", average(SCORES))\nprint(\"highest:\", highest(SCORES))\n",
+      "scores.py": "# คะแนนของชั้นเรียน อ่านจากไฟล์ของโรงเรียน อ่านไฟล์นี้ได้แต่แก้ไม่ได้\nfrom raw_scores import RAW\n\nSCORES = [int(s) for s in RAW.split()]\n",
+      "raw_scores.py": "RAW = \"72 45 88 60 39 95 51\"\n"
+    },
+    "locked": [
+      "scores.py"
+    ],
+    "hidden": [
+      "raw_scores.py"
+    ],
+    "solution": {
+      "main.py": "from scores import SCORES\n\ndef count_passing(scores, mark):\n    count = 0\n    for s in scores:\n        if s >= mark:\n            count = count + 1\n    return count\n\ndef average(scores):\n    total = 0\n    for s in scores:\n        total = total + s\n    return total / len(scores)\n\ndef highest(scores):\n    best = scores[0]\n    for s in scores:\n        if s > best:\n            best = s\n    return best\n\nprint(\"passed:\", count_passing(SCORES, 50))\nprint(\"average:\", average(SCORES))\nprint(\"highest:\", highest(SCORES))\n"
+    },
+    "solutionGate": "after-trying",
+    "steps": [
+      {
+        "id": "count",
+        "title": "นับคะแนนที่ผ่าน",
+        "text": "เขียน **count_passing(scores, mark)** ที่คืนจำนวนคะแนนที่ได้ตั้งแต่ `mark` ขึ้นไป ลองรัน: กับคะแนนของชั้นและ mark เป็น 50 จะพิมพ์ 5",
+        "checks": [
+          {
+            "hidden": false,
+            "kind": "call",
+            "fn": "count_passing",
+            "args": "[[40, 50, 60], 50]",
+            "expect": "2"
+          },
+          {
+            "hidden": false,
+            "kind": "output",
+            "match": "contains",
+            "text": "passed: 5",
+            "ignoreCase": true
+          },
+          {
+            "hidden": true,
+            "kind": "call",
+            "fn": "count_passing",
+            "args": "[[], 50]",
+            "expect": "0"
+          }
+        ],
+        "hint": "เริ่มตัวนับที่ 0 แล้วบวก 1 ในลูปเมื่อ s >= mark"
+      },
+      {
+        "id": "average",
+        "title": "ค่าเฉลี่ย",
+        "text": "เขียน **average(scores)**: ผลรวมหารด้วยจำนวนคะแนน `len(scores)` บอกจำนวนคะแนน",
+        "checks": [
+          {
+            "hidden": false,
+            "kind": "call",
+            "fn": "average",
+            "args": "[[2, 4]]",
+            "expect": "3"
+          },
+          {
+            "hidden": true,
+            "kind": "call",
+            "fn": "average",
+            "args": "[[1, 2]]",
+            "expect": "1.5"
+          }
+        ],
+        "hint": "บวกด้วยลูปก่อน แล้วหารครั้งเดียวหลังลูป"
+      },
+      {
+        "id": "highest",
+        "title": "คะแนนสูงสุด โดยไม่ใช้ max()",
+        "text": "เขียน **highest(scores)** ด้วยลูป: เก็บคะแนนสูงสุดที่เจอมาจนถึงตอนนี้ คิดว่า `best` ควรเริ่มที่ค่าอะไร",
+        "checks": [
+          {
+            "hidden": false,
+            "kind": "call",
+            "fn": "highest",
+            "args": "[[3, 9, 4]]",
+            "expect": "9"
+          },
+          {
+            "hidden": true,
+            "kind": "call",
+            "fn": "highest",
+            "args": "[[-5, -2, -8]]",
+            "expect": "-2"
+          }
+        ],
+        "hint": "ให้ best เริ่มที่คะแนนแรก ไม่ใช่ 0: ถ้าทุกคะแนนต่ำกว่า 0 จะเป็นอย่างไร"
+      }
+    ]
+  }
+}

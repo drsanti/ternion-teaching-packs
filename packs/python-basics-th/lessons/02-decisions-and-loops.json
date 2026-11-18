@@ -504,7 +504,7 @@
               "x": 120,
               "y": 240,
               "w": 1680,
-              "h": 120,
+              "h": 110,
               "rotation": 0,
               "flipX": false,
               "flipY": false
@@ -547,7 +547,7 @@
             "id": "x-042",
             "frame": {
               "x": 120,
-              "y": 380,
+              "y": 360,
               "w": 1680,
               "h": 600,
               "rotation": 0,
@@ -771,7 +771,7 @@
               "x": 120,
               "y": 240,
               "w": 1680,
-              "h": 120,
+              "h": 110,
               "rotation": 0,
               "flipX": false,
               "flipY": false
@@ -814,7 +814,7 @@
             "id": "x-049",
             "frame": {
               "x": 120,
-              "y": 380,
+              "y": 360,
               "w": 1680,
               "h": 600,
               "rotation": 0,
@@ -970,7 +970,119 @@
         "graphs": []
       },
       {
-        "id": "s-056",
+        "id": "s-054",
+        "background": "bg",
+        "backgroundGradient": null,
+        "transition": "fade",
+        "transitionMs": 400,
+        "notes": "เริ่มชั้นเรียนแล้วแสดงสไลด์นี้: ผู้เรียนแต่ละคนจะเห็นปุ่ม Open the lab และได้สำเนาของตนเองใน Code Studio (ไม่มีเฉลย) การตรวจที่เห็นได้ตรวจบนเครื่องผู้เรียน การตรวจที่ซ่อนไว้ตรวจบนเครื่องของครู จึงต้องเปิดชั้นเรียนไว้ รายชื่อแสดงขั้นตอนของผู้เรียนแต่ละคน สำเนาของครูที่มีเฉลย: แผงสไลด์ → Code lab on this slide → Open my copy",
+        "section": "",
+        "guides": {
+          "x": [],
+          "y": [],
+          "lockedX": [],
+          "lockedY": []
+        },
+        "teacherOnly": false,
+        "lab": "loops-and-lists",
+        "hideLogo": false,
+        "master": "",
+        "elements": [
+          {
+            "id": "t-055",
+            "frame": {
+              "x": 120,
+              "y": 90,
+              "w": 1680,
+              "h": 140,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false
+            },
+            "frameDrivers": null,
+            "opacityDriver": null,
+            "scripts": [],
+            "locked": false,
+            "name": "",
+            "hidden": false,
+            "opacity": 1,
+            "shadow": null,
+            "innerShadow": null,
+            "blend": "normal",
+            "blur": 0,
+            "backdropBlur": 0,
+            "exit": null,
+            "emphasis": null,
+            "motion": null,
+            "kind": "text",
+            "text": "ถึงเวลาแล็บ: ลูปและลิสต์",
+            "fill": "none",
+            "style": {
+              "font": "heading",
+              "family": "",
+              "letterSpacing": 0,
+              "size": 72,
+              "weight": 700,
+              "italic": false,
+              "color": "text",
+              "align": "left",
+              "valign": "top",
+              "lineHeight": 1.3,
+              "fit": "shrink"
+            },
+            "sizeDriver": null,
+            "along": null
+          },
+          {
+            "id": "t-056",
+            "frame": {
+              "x": 140,
+              "y": 280,
+              "w": 1640,
+              "h": 700,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false
+            },
+            "frameDrivers": null,
+            "opacityDriver": null,
+            "scripts": [],
+            "locked": false,
+            "name": "",
+            "hidden": false,
+            "opacity": 1,
+            "shadow": null,
+            "innerShadow": null,
+            "blend": "normal",
+            "blur": 0,
+            "backdropBlur": 0,
+            "exit": null,
+            "emphasis": null,
+            "motion": null,
+            "kind": "text",
+            "text": "• กด Open the lab: สำเนาของคุณจะเปิดใน Code Studio\n• สามขั้นตอน: นับคะแนนที่ผ่าน ค่าเฉลี่ย และคะแนนสูงสุด\n• Check my work ตรวจแต่ละขั้น บางข้อครูเป็นผู้ตรวจ\n• scores.py ถูกล็อกไว้: อ่านเพื่อดูว่าคะแนนมาจากไหน",
+            "fill": "none",
+            "style": {
+              "font": "body",
+              "family": "",
+              "letterSpacing": 0,
+              "size": 40,
+              "weight": 400,
+              "italic": false,
+              "color": "text",
+              "align": "left",
+              "valign": "top",
+              "lineHeight": 1.5,
+              "fit": "shrink"
+            },
+            "sizeDriver": null,
+            "along": null
+          }
+        ],
+        "graphs": []
+      },
+      {
+        "id": "s-059",
         "background": "bg",
         "backgroundGradient": null,
         "transition": "fade",
@@ -988,7 +1100,7 @@
         "master": "",
         "elements": [
           {
-            "id": "t-054",
+            "id": "t-057",
             "frame": {
               "x": 120,
               "y": 90,
@@ -1033,7 +1145,7 @@
             "along": null
           },
           {
-            "id": "q-055",
+            "id": "q-058",
             "frame": {
               "x": 160,
               "y": 260,
@@ -1094,6 +1206,104 @@
     "modes": [],
     "mode": "",
     "textStyles": [],
+    "labs": [
+      {
+        "id": "loops-and-lists",
+        "title": "ลูปและลิสต์",
+        "language": "python",
+        "entry": "main.py",
+        "files": {
+          "main.py": "from scores import SCORES\n\ndef count_passing(scores, mark):\n    # มีกี่คะแนนที่ได้ตั้งแต่ mark ขึ้นไป\n    return 0\n\ndef average(scores):\n    # บวกทั้งหมด แล้วหารด้วยจำนวนคะแนน\n    return 0\n\ndef highest(scores):\n    # ห้ามใช้ max(): เก็บคะแนนที่สูงที่สุดที่เจอมาจนถึงตอนนี้\n    return 0\n\nprint(\"passed:\", count_passing(SCORES, 50))\nprint(\"average:\", average(SCORES))\nprint(\"highest:\", highest(SCORES))\n",
+          "scores.py": "# คะแนนของชั้นเรียน อ่านจากไฟล์ของโรงเรียน อ่านไฟล์นี้ได้แต่แก้ไม่ได้\nfrom raw_scores import RAW\n\nSCORES = [int(s) for s in RAW.split()]\n",
+          "raw_scores.py": "RAW = \"72 45 88 60 39 95 51\"\n"
+        },
+        "locked": [
+          "scores.py"
+        ],
+        "hidden": [
+          "raw_scores.py"
+        ],
+        "solution": {
+          "main.py": "from scores import SCORES\n\ndef count_passing(scores, mark):\n    count = 0\n    for s in scores:\n        if s >= mark:\n            count = count + 1\n    return count\n\ndef average(scores):\n    total = 0\n    for s in scores:\n        total = total + s\n    return total / len(scores)\n\ndef highest(scores):\n    best = scores[0]\n    for s in scores:\n        if s > best:\n            best = s\n    return best\n\nprint(\"passed:\", count_passing(SCORES, 50))\nprint(\"average:\", average(SCORES))\nprint(\"highest:\", highest(SCORES))\n"
+        },
+        "solutionGate": "after-trying",
+        "steps": [
+          {
+            "id": "count",
+            "title": "นับคะแนนที่ผ่าน",
+            "text": "เขียน **count_passing(scores, mark)** ที่คืนจำนวนคะแนนที่ได้ตั้งแต่ `mark` ขึ้นไป ลองรัน: กับคะแนนของชั้นและ mark เป็น 50 จะพิมพ์ 5",
+            "checks": [
+              {
+                "hidden": false,
+                "kind": "call",
+                "fn": "count_passing",
+                "args": "[[40, 50, 60], 50]",
+                "expect": "2"
+              },
+              {
+                "hidden": false,
+                "kind": "output",
+                "match": "contains",
+                "text": "passed: 5",
+                "ignoreCase": true
+              },
+              {
+                "hidden": true,
+                "kind": "call",
+                "fn": "count_passing",
+                "args": "[[], 50]",
+                "expect": "0"
+              }
+            ],
+            "hint": "เริ่มตัวนับที่ 0 แล้วบวก 1 ในลูปเมื่อ s >= mark"
+          },
+          {
+            "id": "average",
+            "title": "ค่าเฉลี่ย",
+            "text": "เขียน **average(scores)**: ผลรวมหารด้วยจำนวนคะแนน `len(scores)` บอกจำนวนคะแนน",
+            "checks": [
+              {
+                "hidden": false,
+                "kind": "call",
+                "fn": "average",
+                "args": "[[2, 4]]",
+                "expect": "3"
+              },
+              {
+                "hidden": true,
+                "kind": "call",
+                "fn": "average",
+                "args": "[[1, 2]]",
+                "expect": "1.5"
+              }
+            ],
+            "hint": "บวกด้วยลูปก่อน แล้วหารครั้งเดียวหลังลูป"
+          },
+          {
+            "id": "highest",
+            "title": "คะแนนสูงสุด โดยไม่ใช้ max()",
+            "text": "เขียน **highest(scores)** ด้วยลูป: เก็บคะแนนสูงสุดที่เจอมาจนถึงตอนนี้ คิดว่า `best` ควรเริ่มที่ค่าอะไร",
+            "checks": [
+              {
+                "hidden": false,
+                "kind": "call",
+                "fn": "highest",
+                "args": "[[3, 9, 4]]",
+                "expect": "9"
+              },
+              {
+                "hidden": true,
+                "kind": "call",
+                "fn": "highest",
+                "args": "[[-5, -2, -8]]",
+                "expect": "-2"
+              }
+            ],
+            "hint": "ให้ best เริ่มที่คะแนนแรก ไม่ใช่ 0: ถ้าทุกคะแนนต่ำกว่า 0 จะเป็นอย่างไร"
+          }
+        ]
+      }
+    ],
     "talkMinutes": null,
     "sources": [],
     "variables": [],

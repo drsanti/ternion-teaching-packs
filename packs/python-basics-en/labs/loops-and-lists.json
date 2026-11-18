@@ -1,0 +1,99 @@
+{
+  "format": "ternion-code-lab",
+  "lab": {
+    "id": "loops-and-lists",
+    "title": "Loops and lists",
+    "language": "python",
+    "entry": "main.py",
+    "files": {
+      "main.py": "from scores import SCORES\n\ndef count_passing(scores, mark):\n    # How many scores are mark or more?\n    return 0\n\ndef average(scores):\n    # Add them up, then divide by how many there are.\n    return 0\n\ndef highest(scores):\n    # Without max(): keep the best score seen so far.\n    return 0\n\nprint(\"passed:\", count_passing(SCORES, 50))\nprint(\"average:\", average(SCORES))\nprint(\"highest:\", highest(SCORES))\n",
+      "scores.py": "# The class's scores, read from the school's file. You can read this file but not change it.\nfrom raw_scores import RAW\n\nSCORES = [int(s) for s in RAW.split()]\n",
+      "raw_scores.py": "RAW = \"72 45 88 60 39 95 51\"\n"
+    },
+    "locked": [
+      "scores.py"
+    ],
+    "hidden": [
+      "raw_scores.py"
+    ],
+    "solution": {
+      "main.py": "from scores import SCORES\n\ndef count_passing(scores, mark):\n    count = 0\n    for s in scores:\n        if s >= mark:\n            count = count + 1\n    return count\n\ndef average(scores):\n    total = 0\n    for s in scores:\n        total = total + s\n    return total / len(scores)\n\ndef highest(scores):\n    best = scores[0]\n    for s in scores:\n        if s > best:\n            best = s\n    return best\n\nprint(\"passed:\", count_passing(SCORES, 50))\nprint(\"average:\", average(SCORES))\nprint(\"highest:\", highest(SCORES))\n"
+    },
+    "solutionGate": "after-trying",
+    "steps": [
+      {
+        "id": "count",
+        "title": "Count the passing scores",
+        "text": "Write **count_passing(scores, mark)**: it returns how many scores are `mark` or more. Run it: with the class's scores and mark 50 it prints 5.",
+        "checks": [
+          {
+            "hidden": false,
+            "kind": "call",
+            "fn": "count_passing",
+            "args": "[[40, 50, 60], 50]",
+            "expect": "2"
+          },
+          {
+            "hidden": false,
+            "kind": "output",
+            "match": "contains",
+            "text": "passed: 5",
+            "ignoreCase": true
+          },
+          {
+            "hidden": true,
+            "kind": "call",
+            "fn": "count_passing",
+            "args": "[[], 50]",
+            "expect": "0"
+          }
+        ],
+        "hint": "Start a counter at 0 and add 1 inside the loop when s >= mark."
+      },
+      {
+        "id": "average",
+        "title": "The average",
+        "text": "Write **average(scores)**: the total divided by how many scores there are. `len(scores)` tells you how many.",
+        "checks": [
+          {
+            "hidden": false,
+            "kind": "call",
+            "fn": "average",
+            "args": "[[2, 4]]",
+            "expect": "3"
+          },
+          {
+            "hidden": true,
+            "kind": "call",
+            "fn": "average",
+            "args": "[[1, 2]]",
+            "expect": "1.5"
+          }
+        ],
+        "hint": "Add them up with a loop first, then divide once after the loop."
+      },
+      {
+        "id": "highest",
+        "title": "The highest, without max()",
+        "text": "Write **highest(scores)** with a loop: keep the best score seen so far. Think about where `best` should start.",
+        "checks": [
+          {
+            "hidden": false,
+            "kind": "call",
+            "fn": "highest",
+            "args": "[[3, 9, 4]]",
+            "expect": "9"
+          },
+          {
+            "hidden": true,
+            "kind": "call",
+            "fn": "highest",
+            "args": "[[-5, -2, -8]]",
+            "expect": "-2"
+          }
+        ],
+        "hint": "Start best at the first score, not at 0: what if every score is below 0?"
+      }
+    ]
+  }
+}

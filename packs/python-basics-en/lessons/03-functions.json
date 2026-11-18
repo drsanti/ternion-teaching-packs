@@ -27,7 +27,7 @@
     },
     "slides": [
       {
-        "id": "s-059",
+        "id": "s-062",
         "background": "bg",
         "backgroundGradient": null,
         "transition": "fade",
@@ -45,7 +45,7 @@
         "master": "",
         "elements": [
           {
-            "id": "t-057",
+            "id": "t-060",
             "frame": {
               "x": 120,
               "y": 90,
@@ -90,7 +90,7 @@
             "along": null
           },
           {
-            "id": "t-058",
+            "id": "t-061",
             "frame": {
               "x": 120,
               "y": 250,
@@ -138,7 +138,7 @@
         "graphs": []
       },
       {
-        "id": "s-063",
+        "id": "s-066",
         "background": "bg",
         "backgroundGradient": null,
         "transition": "fade",
@@ -156,7 +156,7 @@
         "master": "",
         "elements": [
           {
-            "id": "t-060",
+            "id": "t-063",
             "frame": {
               "x": 120,
               "y": 90,
@@ -201,7 +201,7 @@
             "along": null
           },
           {
-            "id": "c-061",
+            "id": "c-064",
             "frame": {
               "x": 120,
               "y": 260,
@@ -239,7 +239,7 @@
             "checks": []
           },
           {
-            "id": "t-062",
+            "id": "t-065",
             "frame": {
               "x": 1080,
               "y": 260,
@@ -287,7 +287,7 @@
         "graphs": []
       },
       {
-        "id": "s-067",
+        "id": "s-070",
         "background": "bg",
         "backgroundGradient": null,
         "transition": "fade",
@@ -305,7 +305,7 @@
         "master": "",
         "elements": [
           {
-            "id": "t-064",
+            "id": "t-067",
             "frame": {
               "x": 120,
               "y": 90,
@@ -350,12 +350,12 @@
             "along": null
           },
           {
-            "id": "t-065",
+            "id": "t-068",
             "frame": {
               "x": 120,
               "y": 240,
               "w": 1680,
-              "h": 120,
+              "h": 110,
               "rotation": 0,
               "flipX": false,
               "flipY": false
@@ -395,10 +395,10 @@
             "along": null
           },
           {
-            "id": "x-066",
+            "id": "x-069",
             "frame": {
               "x": 120,
-              "y": 380,
+              "y": 360,
               "w": 1680,
               "h": 600,
               "rotation": 0,
@@ -451,7 +451,7 @@
         "graphs": []
       },
       {
-        "id": "s-070",
+        "id": "s-073",
         "background": "bg",
         "backgroundGradient": null,
         "transition": "fade",
@@ -469,7 +469,7 @@
         "master": "",
         "elements": [
           {
-            "id": "t-068",
+            "id": "t-071",
             "frame": {
               "x": 120,
               "y": 90,
@@ -514,7 +514,7 @@
             "along": null
           },
           {
-            "id": "c-069",
+            "id": "c-072",
             "frame": {
               "x": 120,
               "y": 260,
@@ -555,7 +555,7 @@
         "graphs": []
       },
       {
-        "id": "s-074",
+        "id": "s-077",
         "background": "bg",
         "backgroundGradient": null,
         "transition": "fade",
@@ -573,7 +573,7 @@
         "master": "",
         "elements": [
           {
-            "id": "t-071",
+            "id": "t-074",
             "frame": {
               "x": 120,
               "y": 90,
@@ -618,12 +618,12 @@
             "along": null
           },
           {
-            "id": "t-072",
+            "id": "t-075",
             "frame": {
               "x": 120,
               "y": 240,
               "w": 1680,
-              "h": 120,
+              "h": 110,
               "rotation": 0,
               "flipX": false,
               "flipY": false
@@ -663,10 +663,10 @@
             "along": null
           },
           {
-            "id": "x-073",
+            "id": "x-076",
             "frame": {
               "x": 120,
-              "y": 380,
+              "y": 360,
               "w": 1680,
               "h": 600,
               "rotation": 0,
@@ -726,7 +726,7 @@
         "graphs": []
       },
       {
-        "id": "s-077",
+        "id": "s-080",
         "background": "bg",
         "backgroundGradient": null,
         "transition": "fade",
@@ -744,7 +744,7 @@
         "master": "",
         "elements": [
           {
-            "id": "t-075",
+            "id": "t-078",
             "frame": {
               "x": 120,
               "y": 90,
@@ -789,7 +789,7 @@
             "along": null
           },
           {
-            "id": "c-076",
+            "id": "c-079",
             "frame": {
               "x": 120,
               "y": 260,
@@ -830,7 +830,7 @@
         "graphs": []
       },
       {
-        "id": "s-080",
+        "id": "s-083",
         "background": "bg",
         "backgroundGradient": null,
         "transition": "fade",
@@ -848,7 +848,7 @@
         "master": "",
         "elements": [
           {
-            "id": "t-078",
+            "id": "t-081",
             "frame": {
               "x": 120,
               "y": 90,
@@ -893,7 +893,7 @@
             "along": null
           },
           {
-            "id": "q-079",
+            "id": "q-082",
             "frame": {
               "x": 160,
               "y": 260,
@@ -948,7 +948,7 @@
         "graphs": []
       },
       {
-        "id": "s-083",
+        "id": "s-086",
         "background": "bg",
         "backgroundGradient": null,
         "transition": "fade",
@@ -966,7 +966,7 @@
         "master": "",
         "elements": [
           {
-            "id": "t-081",
+            "id": "t-084",
             "frame": {
               "x": 120,
               "y": 90,
@@ -1011,7 +1011,7 @@
             "along": null
           },
           {
-            "id": "t-082",
+            "id": "t-085",
             "frame": {
               "x": 140,
               "y": 280,

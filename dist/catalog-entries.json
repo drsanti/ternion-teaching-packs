@@ -34,66 +34,66 @@
   {
     "publisherId": "ternion-official",
     "packId": "python-basics-en",
-    "version": "1.0.0",
-    "file": "python-basics-en-1.0.0.ternion-plugin",
-    "sha256": "bbcff43b93f3bf08a564fc5c43e6fbb4b01fc8fef0056ff9ff46fc8654112a06",
-    "bytes": 10239
+    "version": "1.1.0",
+    "file": "python-basics-en-1.1.0.ternion-plugin",
+    "sha256": "f020041190880daffbdee1db3c66b97964df394b73205d03e1440cd191f32117",
+    "bytes": 12743
   },
   {
     "publisherId": "ternion-official",
     "packId": "python-basics-th",
-    "version": "1.0.0",
-    "file": "python-basics-th-1.0.0.ternion-plugin",
-    "sha256": "29093f0192fdd35f5d83db97bf05379b0500f126cefed49939ac9ac2e978f0e0",
-    "bytes": 11855
+    "version": "1.1.0",
+    "file": "python-basics-th-1.1.0.ternion-plugin",
+    "sha256": "e84f191cc26d5eb2f15c2cc035e343ab448f4a78241c2bebef1c67fbd244df84",
+    "bytes": 14804
   },
   {
     "publisherId": "ternion-official",
     "packId": "projectile-motion-en",
-    "version": "1.0.0",
-    "file": "projectile-motion-en-1.0.0.ternion-plugin",
-    "sha256": "1229ef4b8b12bd7efd99d138eabde83918da9446b7bbb3d93856150f7967477e",
-    "bytes": 11840
+    "version": "1.0.1",
+    "file": "projectile-motion-en-1.0.1.ternion-plugin",
+    "sha256": "01b24002710cebc31fc44cd0beab700392efab2488235dc009961ab18c3f1aea",
+    "bytes": 11841
   },
   {
     "publisherId": "ternion-official",
     "packId": "projectile-motion-th",
-    "version": "1.0.0",
-    "file": "projectile-motion-th-1.0.0.ternion-plugin",
-    "sha256": "56d275eceb3c92435f2b9134db09d767fb1b3bac44934aa2c600532a8a01eb85",
-    "bytes": 13647
+    "version": "1.0.1",
+    "file": "projectile-motion-th-1.0.1.ternion-plugin",
+    "sha256": "4e4013ae575d0f5d5023ba5e8063d9d3ea39967c82b387113c399ccbb614205c",
+    "bytes": 13649
   },
   {
     "publisherId": "ternion-official",
     "packId": "ws28p-embedded-en",
-    "version": "1.0.0",
-    "file": "ws28p-embedded-en-1.0.0.ternion-plugin",
-    "sha256": "0bcde0fea8c58bd690c9018f482b0531bdcc7c7712628f92d2482b097eaa2d5f",
-    "bytes": 14104
+    "version": "1.0.1",
+    "file": "ws28p-embedded-en-1.0.1.ternion-plugin",
+    "sha256": "c57287799b66698a3dbbf8268e89275d9b8ac025152b7d6f98448e146118666c",
+    "bytes": 14103
   },
   {
     "publisherId": "ternion-official",
     "packId": "ws28p-embedded-th",
-    "version": "1.0.0",
-    "file": "ws28p-embedded-th-1.0.0.ternion-plugin",
-    "sha256": "c418b8d93698cadf6333146c791b533330459f0d7b439cdd5f62f5c6772e2d92",
-    "bytes": 16409
+    "version": "1.0.1",
+    "file": "ws28p-embedded-th-1.0.1.ternion-plugin",
+    "sha256": "4a31fc84262459abf9fdc3c71b6d49bd38d8e53d3df9224830ee11543d430ded",
+    "bytes": 16406
   },
   {
     "publisherId": "ternion-official",
     "packId": "sound-mic-en",
-    "version": "1.0.0",
-    "file": "sound-mic-en-1.0.0.ternion-plugin",
-    "sha256": "f7f423eb1f0678c6b2406dd247b3fcdfa36d59b56ee93437a72ec901a4a7bd9a",
-    "bytes": 11462
+    "version": "1.0.1",
+    "file": "sound-mic-en-1.0.1.ternion-plugin",
+    "sha256": "a30903dcde7c503404f5d6ed5d2f0333b3de32253d2e61be430d170cb36f9305",
+    "bytes": 11460
   },
   {
     "publisherId": "ternion-official",
     "packId": "sound-mic-th",
-    "version": "1.0.0",
-    "file": "sound-mic-th-1.0.0.ternion-plugin",
-    "sha256": "725b6448aa11a90bea60449b37efdc0bff949d8597c5bbdfc03c8c6dc9531f46",
-    "bytes": 13323
+    "version": "1.0.1",
+    "file": "sound-mic-th-1.0.1.ternion-plugin",
+    "sha256": "3fed8dd62254fba60624dbd5aa2b80998401118e871ded333751a29815da430a",
+    "bytes": 13322
   },
   {
     "publisherId": "ternion-official",
@@ -115,17 +115,6 @@
     "bytes": 19737,
     "protected": {
       "innerSha256": "111742fcd78e58dc55e0898bb04f22450f69d257c1f1036091e6a60255a4d6fe"
-    }
-  },
-  {
-    "publisherId": "tesa",
-    "packId": "tesa-devkit-talk-en",
-    "version": "1.0.1",
-    "file": "tesa-devkit-talk-en-1.0.1.ternion-protected",
-    "sha256": "259a9b48a40d50a855506e81aee40be573c9c78045e6b6a8d7dd90db483a1576",
-    "bytes": 712352,
-    "protected": {
-      "innerSha256": "1d1fe5f69b5fdf7d6bea97d2f3137c6bb80acae8fcc20041126dc93925737f2d"
     }
   }
 ]
