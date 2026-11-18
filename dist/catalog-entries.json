@@ -34,50 +34,50 @@
   {
     "publisherId": "ternion-official",
     "packId": "python-basics-en",
-    "version": "1.1.0",
-    "file": "python-basics-en-1.1.0.ternion-plugin",
-    "sha256": "f020041190880daffbdee1db3c66b97964df394b73205d03e1440cd191f32117",
-    "bytes": 12743
+    "version": "1.2.0",
+    "file": "python-basics-en-1.2.0.ternion-plugin",
+    "sha256": "4e9929ae1ed50168beb9037969222eecfc5a5f8489c1040e5b68b5e36ca43f4f",
+    "bytes": 13007
   },
   {
     "publisherId": "ternion-official",
     "packId": "python-basics-th",
-    "version": "1.1.0",
-    "file": "python-basics-th-1.1.0.ternion-plugin",
-    "sha256": "e84f191cc26d5eb2f15c2cc035e343ab448f4a78241c2bebef1c67fbd244df84",
-    "bytes": 14804
+    "version": "1.2.0",
+    "file": "python-basics-th-1.2.0.ternion-plugin",
+    "sha256": "85a61747376e120fb5161d06e75f1efaee9fbcaffbe858f7b9ddc03a5af69468",
+    "bytes": 15081
   },
   {
     "publisherId": "ternion-official",
     "packId": "projectile-motion-en",
-    "version": "1.0.1",
-    "file": "projectile-motion-en-1.0.1.ternion-plugin",
-    "sha256": "01b24002710cebc31fc44cd0beab700392efab2488235dc009961ab18c3f1aea",
-    "bytes": 11841
+    "version": "1.1.0",
+    "file": "projectile-motion-en-1.1.0.ternion-plugin",
+    "sha256": "9d3a0bf72b55578cd23b77408d094806f0d6076fb026784a5980f4b589ab6626",
+    "bytes": 12107
   },
   {
     "publisherId": "ternion-official",
     "packId": "projectile-motion-th",
-    "version": "1.0.1",
-    "file": "projectile-motion-th-1.0.1.ternion-plugin",
-    "sha256": "4e4013ae575d0f5d5023ba5e8063d9d3ea39967c82b387113c399ccbb614205c",
-    "bytes": 13649
+    "version": "1.1.0",
+    "file": "projectile-motion-th-1.1.0.ternion-plugin",
+    "sha256": "07c8e0f9da255a4533639666b772677c7fcf879ab2cd6d75cc19405b9218ac8f",
+    "bytes": 13929
   },
   {
     "publisherId": "ternion-official",
     "packId": "ws28p-embedded-en",
-    "version": "1.0.1",
-    "file": "ws28p-embedded-en-1.0.1.ternion-plugin",
-    "sha256": "c57287799b66698a3dbbf8268e89275d9b8ac025152b7d6f98448e146118666c",
-    "bytes": 14103
+    "version": "1.1.0",
+    "file": "ws28p-embedded-en-1.1.0.ternion-plugin",
+    "sha256": "3bccdfdb2c760eab0cb581790d7f17d2b238c2628150a5c494c506222d98665e",
+    "bytes": 14371
   },
   {
     "publisherId": "ternion-official",
     "packId": "ws28p-embedded-th",
-    "version": "1.0.1",
-    "file": "ws28p-embedded-th-1.0.1.ternion-plugin",
-    "sha256": "4a31fc84262459abf9fdc3c71b6d49bd38d8e53d3df9224830ee11543d430ded",
-    "bytes": 16406
+    "version": "1.1.0",
+    "file": "ws28p-embedded-th-1.1.0.ternion-plugin",
+    "sha256": "577d6d3005b823c05291d4e837aafe5b3a245b08bac41438498d429e3d8ca2d6",
+    "bytes": 16670
   },
   {
     "publisherId": "ternion-official",

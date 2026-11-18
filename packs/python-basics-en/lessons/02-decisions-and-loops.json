@@ -236,6 +236,30 @@
             "tabSize": 2,
             "highlight": [],
             "runnable": false,
+            "block": {
+              "frame": "window",
+              "title": "example.py",
+              "copy": true,
+              "steps": [
+                {
+                  "lines": [
+                    1
+                  ]
+                },
+                {
+                  "lines": [
+                    2,
+                    3
+                  ]
+                },
+                {
+                  "lines": [
+                    4,
+                    5
+                  ]
+                }
+              ]
+            },
             "checks": []
           },
           {
@@ -385,6 +409,30 @@
             "tabSize": 2,
             "highlight": [],
             "runnable": false,
+            "block": {
+              "frame": "window",
+              "title": "example.py",
+              "copy": true,
+              "steps": [
+                {
+                  "lines": [
+                    1
+                  ]
+                },
+                {
+                  "lines": [
+                    2,
+                    3,
+                    4
+                  ]
+                },
+                {
+                  "lines": [
+                    5
+                  ]
+                }
+              ]
+            },
             "checks": []
           },
           {

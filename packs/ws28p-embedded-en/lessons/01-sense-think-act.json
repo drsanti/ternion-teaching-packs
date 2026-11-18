@@ -677,6 +677,33 @@
             "tabSize": 2,
             "highlight": [],
             "runnable": false,
+            "block": {
+              "frame": "window",
+              "title": "example.py",
+              "copy": true,
+              "steps": [
+                {
+                  "lines": [
+                    1
+                  ]
+                },
+                {
+                  "lines": [
+                    2
+                  ]
+                },
+                {
+                  "lines": [
+                    3
+                  ]
+                },
+                {
+                  "lines": [
+                    4
+                  ]
+                }
+              ]
+            },
             "checks": []
           },
           {
