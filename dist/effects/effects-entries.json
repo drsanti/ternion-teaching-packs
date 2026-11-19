@@ -1,0 +1,14 @@
+[
+  {
+    "id": "effect-aurora",
+    "version": "1.0.0",
+    "effectId": "aurora",
+    "effectVersion": 1,
+    "name": "Aurora",
+    "blurb": "Curtains of light waving across the sky",
+    "engine": "2d",
+    "file": "effect-aurora-1.0.0.ternion-plugin",
+    "sha256": "907f25cac51b4ee7aa24a1eec2ff474792be69a7e2f4810050130e496370d0c1",
+    "bytes": 2082
+  }
+]
